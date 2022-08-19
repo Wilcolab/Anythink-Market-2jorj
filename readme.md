@@ -11,3 +11,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Install the appropriate version of Docker from this link: https://docs.docker.com/get-docker/. Follow the instructions in the website
+2. Verify Docker is installed by running "docker -v" and "docker-compose -v"
+3. In terminal, navigate to the project root directory
+4. Run "docker-compose up" to load Anythink's backend and frontend
+5. Wait... Wait what seems like a long time.
+6. In your browser, navigate to http://localhost:3001/register to verify everything is working properly
+
